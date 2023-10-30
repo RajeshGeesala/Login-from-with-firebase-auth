@@ -45,7 +45,7 @@ const Signup = () => {
                 <br></br>  <br></br>
                 <input type="password" placeholder='PASSWORD' name="password" value={password} onChange={setValues}  className='form-control' />
                 <br></br>  <br></br>
-                <input type="submit" value="Create Account" />
+                <input type="submit" className='btn btn-success' value="Create Account" />
             </form>
         </div>
     )

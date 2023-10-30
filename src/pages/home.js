@@ -31,10 +31,11 @@ const Home = () => {
    
   return (
     <>
-    <div className='App'>Home</div>
-    <div>{authUser? authUser.firstName : ".."}</div>
-        <div>{authUser? authUser.email : ""}</div>
-    <button onClick={Logout}> logout </button>
+    <div className='home'>
+             <h2>Welcome! </h2>
+        <div><h1 className='displayEmail'>{authUser? authUser.email : ""} </h1></div>
+    <button className='btn btn-dark' onClick={Logout}> logout </button>
+    </div>
     </>
   )
 }

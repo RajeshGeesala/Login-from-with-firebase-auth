@@ -38,13 +38,13 @@ import { Link, useNavigate } from 'react-router-dom';
     return (
         <div className='formparent'>
             <form onSubmit={submitHandler}>
-                <h1> <pre>  Log-in </pre></h1>
+                <h1>   Log-in </h1>
                 <input type='email' placeholder='EMAIL' name='email' value={email} onChange={setValues} className='form-control' />
                 <br></br> 
                 <input type="password" placeholder='PASSWORD' name="password" value={password} onChange={setValues} className='form-control' />
                 <br></br>  
-                <input type="submit" value="Log-In" className="btn btn-success" />  
-                <p> <Link to="/signup">Click here to Create New Account</Link></p>
+               <center> <input type="submit" value="Log-In" className="btn btn-success" />  
+                <p> <Link to="/signup" className='link btn btn-info' >Click here to Create New Account</Link></p></center>
             </form>
            
         </div>
