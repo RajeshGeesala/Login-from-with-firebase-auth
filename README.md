@@ -1,5 +1,6 @@
 # Getting Started with Create React App
   <h1>Hi,I am Rajesh Geesala   <h1>
+  <h2>  Firebase authentication with email and password in react app.<h2>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
